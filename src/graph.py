@@ -1,7 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+'''
+Printing and graphing reference: https://www.kaggle.com/ryanholbrook/binary-classification
+'''
 def graph_result(train_history):
     history_df = pd.DataFrame(train_history)
     print(("Best Validation Loss: {:0.5f}" +
